@@ -119,7 +119,7 @@ Current training setup:
 
 | Parameter     | Value    |
 | ------------- | -------- |
-| Epochs        | 150      |
+| Epochs        | 200      |
 | Batch Size    | 16       |
 | Optimizer     | Adam     |
 | Loss Function | MSE Loss |
