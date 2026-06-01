@@ -296,9 +296,9 @@ Recommended:
 
 ---
 # References
-Shi et al. — Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network
-PyTorch Documentation
-OpenCV Documentation
+* Shi et al. — Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network
+* PyTorch Documentation
+* OpenCV Documentation
 ---
 # Authors
 
