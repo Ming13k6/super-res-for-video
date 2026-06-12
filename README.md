@@ -104,6 +104,7 @@ pip install -r requirements.txt
 # Training
 
 You may opt to use our trained model or train the model yourself with our preset settings and dataset
+
 Place high-resolution images inside:
 
 ```bash id="datasetfinal"
