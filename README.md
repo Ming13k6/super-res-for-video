@@ -156,13 +156,10 @@ Then run
 python app.py
 ```
 
+After running the command, open your browser and go to http://127.0.0.1:7860
+Then, upload your video and click the "submit" button. Click on the scissors button on the top right corner to trim the video however you want. Click on the "X" button next to it to abort the uploaded video. Once you are ready, click the submit button. The inference duration may varies from 100s to 500s+ depends on your PC specs, the video duration and whether you are using CPU or GPU, and the output should be an enhanced video and a comparison video that puts the enhanced one side-by-side with bicubic.
+
 # Evaluation
-
-Run metrics:
-
-```bash id="metricsfinal"
-python metrics.py
-```
 
 Current results:
 
