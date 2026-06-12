@@ -103,6 +103,7 @@ pip install -r requirements.txt
 
 # Training
 
+You may opt to use our trained model or train the model yourself with our preset settings and dataset
 Place high-resolution images inside:
 
 ```bash id="datasetfinal"
@@ -135,65 +136,24 @@ espcn.pth
 
 # Running Video Super Resolution
 
-## 1. Add input video
+Make sure you are on the correct direction to the folder: ...\super-res-for-video
 
-Place video inside:
+Run virtual environment (ignore this if you already activated)
+### Windows
 
-```bash id="inputfinal"
-input/
+```bash id="venvfinal"
+venv\Scripts\activate
 ```
 
-Example:
+### Linux / MacOS
 
-```bash id="inputexamplefinal"
-input/test.mp4
+```bash id="venvlinuxfinal"
+source venv/bin/activate
 ```
-
----
-
-## 2. Extract frames
-
-```bash id="extractfinal"
-python extract_frames.py
+Then run
 ```
-
----
-
-## 3. Run inference
-
-```bash id="inferfinal"
-python video_inference.py
+python app.py
 ```
-
-Enhanced frames will be generated inside:
-
-```bash id="enhancedfinal"
-enhanced_frames/
-```
-
----
-
-## 4. Reconstruct enhanced video
-
-```bash id="reconstructfinal"
-python reconstruct_video.py
-```
-
-Output video will be saved into:
-
-```bash id="outputfinal"
-output/
-```
-
----
-
-## 5. Generate comparison video
-
-```bash id="comparefinal"
-python compare_video.py
-```
-
----
 
 # Evaluation
 
